@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 30px solid #f26b38;
+}
+
+.header .header-navigation .header-navigation-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    align-items: center;
+}
+.header .header-navigation .header-navigation-list .header-navigation-list_item {
+    margin: 0px 30px;    
+}
+
+.header .header-navigation .header-navigation-list .header-navigation-list_item .header-navigation-list_item-link {
+    text-decoration: none;
+    color: #363636;
+    font-family: 'Roboto mono';
+    font-size: 13px;
+    font-weight: 400;
+    transition: ease-in-out .2s;
+        
+}
+.header .header-navigation .header-navigation-list .header-navigation-list_item .header-navigation-list_item-link.active {
+    color: #f26b38;
+}
+
+.header .header-navigation .header-navigation-list .header-navigation-list_item .header-navigation-list_item-link:hover {
+  color: #f26b38;  
+}
+.header .header-navigation .header-navigation-list .header-navigation-list_item .header-navigation-list_item-link--bordered {
+border: 1px solid #dddddd;
+padding: 0px 30px;
+line-height: 40px;
+display: inline-block;
+}
+
+.header .header-navigation .header-navigation-list .header-navigation-list_item .header-navigation-list_item-link--bordered:hover {
+    background: #f26b38;
+    color: #ffffff;
+}
+.main .about-me {
+    text-align: center;
+}
+.main .about-me_name {
+    font-family: 'Robot mono';
+    font-size: 68px;
+    color: #141414;
+    text-transform: uppercase;
+    margin: 180px 0px 0px 0px;
+}
+.main .about-me_major {
+    font-family: 'Robot mono';
+    font-size: 13px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 180px 30px 0px 30px;
+}
+
+.footer .copyringht .copyringht-text {
+    font-family: 'Robot mono';
+    font-size: 11px;
+    color: #999999;
+}
+
+.footer .socials-list {
+    flex-direction: row;
+    list-style-type: none;
+    display: inline-flex;
+}
+.footer .socials-list .socials-list-item {
+    margin-left: 20px;
+}
+.footer .socials-list .socials-list-item .socials-list-item-link {
+    text-decoration: none;
+}
+.footer .socials-list .socials-list-item .socials-list-item-link .ion-social-dribbble:before{
+    color: black;
+}
+.footer .socials-list .socials-list-item .socials-list-item-link .ion-social-twitter:before{
+    color: black;
+}
+.footer .socials-list .socials-list-item .socials-list-item-link .ion-social-github:before{
+    color: black;
+}
+.footer .socials-list .socials-list-item .socials-list-item-link .ion-social-instagram-outline:before{
+    color: black;
+}
+.logo img {
+    width: 10%;
+}
+/* BLOG STYLES BEGIN */
+.main .main-video-section {
+    margin-top: 70px;
+    
+}
+.main .main-video-section #video {
+    text-align: center;
+    margin: 0 auto;
+}
+/* BLOG STYLES END */
+
+
+/* TEST */
+
+
+
+.section {
+        font-family: 'Robot mono';
+        opacity: 1;
+        visibility: visible;
+        position: relative;
+        padding: 0 80px 150px 80px;
+        z-index: 97;
+        display: block;
+}
+section .content {
+    position: relative;
+}
+.section .content .title {
+    position: relative;
+    margin-bottom: 40px;
+}
+.section .content .title .title_inner {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    line-height: 18px;
+    font-size: 13px;
+    color: #141414;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+.section.about .photo {
+    float: left;
+}
+.section.about .photo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+.section.about .desc {
+    margin-left: 130px;
+}
+.text-resume {
+    font-size: 13px;
+    line-height: 23px;
+    padding: 0;
+    margin: 30px 0;
+}
+.info-list {
+    margin-bottom: 42px;
+}
+.ul_info-list {
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+.li_ul_info-list {
+    display: inline-block;
+    vertical-align: top;
+    width: 32%;
+    margin: 12px 0 0 0;
+}
+strong {
+    color: #f26b38;
+
+    font-weight: 400;
+}
+    
+a.btn.fill, .btn.fill {
+    background: #f26b38;
+    border-color: #f26b38;
+}
+a.btn.fill, .btn.fill {
+    color: #ffffff;
+    border: 1px solid #f26b38;
+}
+a.btn, .btn {
+    display: inline-block;
+    vertical-align: middle;
+    height: 42px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 13px;
+    position: relative;
+    overflow: hidden;
+    padding: 0 30px;
+    cursor: pointer;
+}
+.clear {
+    clear: both;
+}
